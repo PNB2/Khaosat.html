@@ -1,0 +1,45 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="khảo sát, html, thông tin">
+        <meta name="description" content="khảo sát đơn giản">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biểu mẫu khảo sát</title>
+        <link rel="stylesheet" href="styleKS.css">
+    </head>
+    <body>
+        <h1>Biểu mẫu</h1>
+        <form>
+            <label for="hoten">Họ tên</label><br>
+            <input type="text" name="hoten" id="hoten" placeholder="Nhập tên của bạn">
+            <br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Nhập email của bạn">
+            <br>
+            <label for="age">Tuổi</label><br>
+            <input type="age" name="age" id="age" placeholder="Nhập tuổi">
+            <br>
+            <label for="chon">Hiện tại bạn đang là?</label><br>
+            <select id="chon">
+                <option value="student">Học sinh/ Sinh viên</option>
+                <option value="inter">Thực tập</option>
+                <option value="professional">Nhân viên</option>
+                <option value="other">Khác</option>
+            </select>
+            <br>
+            <label for="gioithieu">Bạn sẽ giới thiệu ITviec với bạn bè chứ?</label><br>
+            <input type="radio" name="gioithieu" id="gt" value="yes">Có <br>
+            <input type="radio" name="gioithieu" id="gt" value="no">Không <br>
+            <input type="radio" name="gioithieu" id="maybe">Có thể <br>
+            <br>
+            <label for="dabiet">Ngôn ngữ lập trình và Framework bạn đã biết?(Có thể chọn nhiều đáp án)</label><br>
+            <input type="checkbox" name="dabiet" id="c" value="c">C <br>
+            <input type="checkbox" name="dabiet" id="c++" value="c++">C++ <br>
+            <input type="checkbox" name="dabiet" id="c#">C# <br>
+            <br>
+            <label for="ask">Bạn có câu hỏi gì cho ITviec không?</label><br>
+            <textarea name="message" id="message" placeholder="Enter your conmments here!" ></textarea>
+        </form>
+    </body>
+</html>
