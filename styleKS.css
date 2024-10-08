@@ -1,0 +1,25 @@
+form{
+    background-color: white;
+    margin: 95px;
+    padding:20px;
+}
+form label{
+    line-height: 30px;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+#hoten, #email, #age, #message{
+    width: 100%;
+    padding: 6px;
+}
+#chon{
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+}
+body{
+    background-color: aquamarine;
+    padding: 10px;
+}
